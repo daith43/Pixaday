@@ -1,0 +1,17 @@
+.contBadge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+
+.contBadge:hover{
+    background-color: rgb(244, 244, 244);
+}

@@ -1,0 +1,31 @@
+#root {
+  /*max-width: 1280px;
+  padding: 2rem;*/
+  text-align: center;
+  font-family: 'Open Sans', system-ui;
+  font-weight: 400;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+}
+
+.navCont{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+h1{
+  margin: 0;
+  color: #fff;
+  background-color: #14BC7D;
+}
